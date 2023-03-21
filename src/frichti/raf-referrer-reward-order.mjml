@@ -1,0 +1,17 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Helvetica" />
+      <mj-breakpoint width="600px" />
+      <mj-preview>Votre filleul(le) vous offre le déjeuner !</mj-preview>
+      <mj-title>Votre filleul(le) vous offre le déjeuner !</mj-title>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="blue big"> Votre filleul(le) vous offre le déjeuner ! </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,17 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Helvetica" />
+      <mj-breakpoint width="600px" />
+      <mj-preview>Commande annulée</mj-preview>
+      <mj-title>Commande annulée</mj-title>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="blue big"> Commande annulée </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

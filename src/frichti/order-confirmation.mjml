@@ -1,0 +1,17 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Helvetica" />
+      <mj-breakpoint width="600px" />
+      <mj-preview>Et une commande toute chaude ! Une !</mj-preview>
+      <mj-title>Et une commande toute chaude ! Une !</mj-title>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="blue big"> Et une commande toute chaude ! Une ! </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

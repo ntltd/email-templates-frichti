@@ -1,0 +1,24 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "main": ".",
+  "private": true,
+  "scripts": {
+    "dev": "serve ./src/$DIR/assets",
+    "build": "rimraf ./dist/$DIR && mkdirp ./dist/$DIR && mjml ./src/$DIR/*.mjml -o ./dist/$DIR --config.beautify=true",
+    "build:frichti": "DIR=frichti yarn build",
+    "dev:frichti": "DIR=frichti yarn dev",
+    "prettier": "prettier src --write"
+  },
+  "devDependencies": {
+    "mjml": "^4.13.0",
+    "mkdirp": "^2.1.5",
+    "rimraf": "^4.4.0",
+    "serve": "^14.2.0",
+    "prettier": "^2.8.6"
+  },
+  "engines": {
+    "yarn": ">=1",
+    "node": ">=18"
+  }
+}
