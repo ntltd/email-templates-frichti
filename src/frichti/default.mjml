@@ -8,9 +8,13 @@
     </mj-attributes>
     <mj-breakpoint width="640px" />
     <mj-style>
-      .table-box { border: 1px solid #000000; box-shadow: 2px 2px 0 #000000; border-radius: 16px; overflow: hidden; }
+      .table-strong { border: 1px solid #000000; box-shadow: 2px 2px 0 #000000; border-radius: 16px; overflow: hidden;
+      padding: 24px; } .table-light { border: 1px solid #000000; border-radius: 16px; } @media (min-width: 640px) {
+      .table-light-left { border-top-right-radius: 0; border-bottom-right-radius: 0; } .table-light-right {
+      border-top-left-radius: 0; border-bottom-left-radius: 0; } }
     </mj-style>
   </mj-head>
+
   <mj-body width="640px">
     <mj-wrapper padding="40px 24px">
       <mj-section background-color="#ffffff" padding="0">
@@ -32,11 +36,77 @@
         </mj-column>
       </mj-section>
 
-      <mj-section full-width padding="8px 0 0 0">
+      <mj-section padding="8px 0 0 0">
         <mj-column width="100%" padding="0">
           <mj-text align="left" padding="0" font-size="10px" line-height="12px">
             <b>Le supermarché vraiment super.</b>
             Des courses et des plats au meilleur prix, livrés en 15min 7/7 de 8h à 23h.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="14px" line-height="20px" align="center">
+            Sunt idoleumes experientia alter, lotus brabeutaes. A falsis, particula flavum luna. Cum racana
+            peregrinationes, omnes torquises visum alter, altus abaculuses.
+            <br />
+            <br />
+            Pius messor saepe quaestios bromium est. Domesticus mons solite reperires hibrida est. Absolutios messis in
+            avenio! Mirabilis mens satis locuss onus est. Alter liberi solite magicaes repressor est.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="24px 0 0">
+        <mj-column padding="0">
+          <mj-raw>
+            <p style="text-align: center">
+              <span
+                style="
+                  font-family: 'Helvetica', sans-serif;
+                  display: inline-block;
+                  width: auto;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 20px;
+                  text-align: center;
+                  padding: 8px;
+                  background: #fdf18d;
+                "
+              >
+                Ubi est varius lanista?
+              </span>
+            </p>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-button
+            border-radius="9999px"
+            color="#ffffff"
+            background-color="#000000"
+            padding="0"
+            line-height="16px"
+            font-size="14px"
+            font-weight="700"
+            inner-padding="10px 16px"
+          >
+            Omnes rumores examinare germanus!
+          </mj-button>
+          <mj-text
+            font-style="italic"
+            font-size="12px"
+            line-height="14px"
+            color="#757575"
+            padding="16px 0 0 0"
+            align="center"
+          >
+            Lapsuss mori in dexter mare! Ubi est altus bursa? Camerarius, grandis omnias una manifestum de rusticus,
+            flavum nuclear vexatum iacere.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -67,9 +137,88 @@
         </mj-column>
       </mj-section>
 
-      <mj-section css-class="table-box" padding="0">
+      <mj-section css-class="table-strong" padding="0">
         <mj-column>
           <mj-text>lol</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="48%" css-class="table-light table-light-left" padding="16px">
+          <mj-image
+            align="center"
+            alt=""
+            height="20px"
+            width="20px"
+            src="http://localhost:3000/heart.png"
+            padding="0"
+          />
+          <mj-text
+            font-weight="900"
+            font-style="italic"
+            align="center"
+            text-transform="uppercase"
+            font-size="10px"
+            line-height="12px"
+            padding="12px 0"
+          >
+            10€ pour vous = 10€ pour lui
+          </mj-text>
+          <mj-button
+            color="#000000"
+            background-color="#fdf18d"
+            border-radius="9999px"
+            font-size="12px"
+            line-height="14px"
+            inner-padding="10px 16px"
+            padding="0"
+          >
+            Parrainez vos amis
+          </mj-button>
+        </mj-column>
+        <mj-column width="16px" padding="16px 0 0 0"> </mj-column>
+        <mj-column width="48%" css-class="table-light table-light-right" padding="16px">
+          <mj-image
+            align="center"
+            alt=""
+            height="20px"
+            width="116px"
+            src="http://localhost:3000/5-stars.png"
+            padding="0"
+          />
+          <mj-text
+            font-weight="900"
+            font-style="italic"
+            align="center"
+            text-transform="uppercase"
+            font-size="10px"
+            line-height="12px"
+            padding="12px 0"
+          >
+            Qu’avez-vous pensé de votre Fricthi ?
+          </mj-text>
+          <mj-button
+            color="#000000"
+            background-color="#fdf18d"
+            border-radius="9999px"
+            font-size="12px"
+            line-height="14px"
+            inner-padding="10px 16px"
+            padding="0"
+          >
+            Notez votre commande
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="14px" line-height="16px" align="center" font-weight="bold">
+            Une question ? Un petit mot doux ?
+          </mj-text>
+          <mj-text font-size="14px" line-height="16px" align="center" color="#757575" padding="8px 0 0 0">
+            N’hésitez pas à répondre à ce mail. Et si c’est urgent, on vous répond en direct.
+          </mj-text>
         </mj-column>
       </mj-section>
 
