@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Agrandir';
+  font-style: normal;
+  font-weight: bold;
+  src: url(http://localhost:3000/fonts/Agrandir-WideBlack.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  font-style: normal;
+  font-weight: normal;
+  src: url(http://localhost:3000/fonts/Agrandir-WideLight.otf) format('opentype');
+}

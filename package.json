@@ -4,7 +4,7 @@
   "main": ".",
   "private": true,
   "scripts": {
-    "dev": "serve ./src/$DIR/assets",
+    "dev": "serve ./src/$DIR/assets --cors",
     "build": "rimraf ./dist/$DIR && mkdirp ./dist/$DIR && mjml ./src/$DIR/*.mjml -o ./dist/$DIR --config.beautify=true",
     "build:frichti": "DIR=frichti yarn build",
     "dev:frichti": "DIR=frichti yarn dev",
