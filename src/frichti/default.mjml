@@ -144,8 +144,8 @@
         <mj-column width="100%" padding="0 0 12px 0">
           <mj-table align="left" padding="0 16px">
             <tr style="border-bottom: 12px solid #ffffff">
-              <td width="56px" style="width: 56px; height: 56px; background: #757575">
-                <img height="56px" width="56px" src="" alt="" style="object-fit: contain" />
+              <td width="56px" style="width: 56px; height: 56px">
+                <img height="56px" width="56px" src="" alt="" style="object-fit: contain; background: #f0f3f7" />
               </td>
               <td style="padding: 0 12px 0 16px; text-align: left">
                 Champaign soup is just not the same without butterscotch and hot chopped broccolis.
@@ -154,8 +154,8 @@
               <td style="white-space: nowrap; font-weight: bold; padding-left: 12px; text-align: right">10.00 €</td>
             </tr>
             <tr style="border-bottom: 12px solid #ffffff">
-              <td width="56px" style="width: 56px; height: 56px; background: #757575">
-                <img height="56px" width="56px" src="" alt="" style="object-fit: contain" />
+              <td width="56px" style="width: 56px; height: 56px">
+                <img height="56px" width="56px" src="" alt="" style="object-fit: contain; background: #f0f3f7" />
               </td>
               <td style="padding: 0 12px 0 16px; text-align: left">
                 When grilling sticky leeks, be sure they are room temperature.
@@ -164,8 +164,8 @@
               <td style="white-space: nowrap; font-weight: bold; padding-left: 12px; text-align: right">0.00 €</td>
             </tr>
             <tr style="border-bottom: 12px solid #ffffff">
-              <td width="56px" style="width: 56px; height: 56px; background: #757575">
-                <img height="56px" width="56px" src="" alt="" style="object-fit: contain" />
+              <td width="56px" style="width: 56px; height: 56px">
+                <img height="56px" width="56px" src="" alt="" style="object-fit: contain; background: #f0f3f7" />
               </td>
               <td style="padding: 0 12px 0 16px; text-align: left">
                 After draining the truffels, decorate meatloaf, strawberries and beer with it in a wok.
