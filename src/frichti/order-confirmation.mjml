@@ -1,17 +1,431 @@
 <mjml>
   <mj-head>
+    <mj-preview>Hello World!</mj-preview>
+    <mj-title>Hello MJML</mj-title>
     <mj-attributes>
-      <mj-all font-family="Helvetica" />
-      <mj-breakpoint width="600px" />
-      <mj-preview>Et une commande toute chaude ! Une !</mj-preview>
-      <mj-title>Et une commande toute chaude ! Une !</mj-title>
+      <mj-text padding="0" />
+      <mj-all font-family="Circular, Helvetica, sans-serif" line-height="normal" />
     </mj-attributes>
+    <mj-breakpoint width="640px" />
+    <mj-font name="Circular" href="http://localhost:3000/fonts/circular.css" />
+    <mj-font name="Agrandir" href="http://localhost:3000/fonts/agrandir.css" />
+    <mj-style>
+      .table-strong { border: 1px solid #000000; box-shadow: 2px 2px 0 #000000; border-radius: 16px; overflow: hidden;
+      padding: 24px; } .table-light { border: 1px solid #000000; border-radius: 16px; } @media (min-width: 640px) {
+      .table-light-left { border-top-right-radius: 0; border-bottom-right-radius: 0; } .table-light-right {
+      border-top-left-radius: 0; border-bottom-left-radius: 0; } }
+    </mj-style>
   </mj-head>
-  <mj-body>
-    <mj-section>
-      <mj-column>
-        <mj-text mj-class="blue big"> Et une commande toute chaude ! Une ! </mj-text>
-      </mj-column>
-    </mj-section>
+
+  <mj-body width="640px" background-color="#ffffff">
+    <mj-wrapper padding="40px 24px">
+      <mj-section background-color="#ffffff" padding="0">
+        <mj-column padding="0">
+          <mj-table padding="0" border="0" line-height="0" cellpadding="0">
+            <tr style="text-align: left; padding: 0; margin: 0; background: none">
+              <td style="padding: 0 16px 0 0; background: #ffffff; margin: 0; height: 12px; width: 198px">
+                <img
+                  style="margin: 0; padding: 0"
+                  alt=""
+                  height="12px"
+                  width="198px"
+                  src="https://res.cloudinary.com/frichti/image/upload/v1679668662/frichti-food-lovers-headline_t4iwtn.jpg"
+                />
+              </td>
+              <td style="padding: 0 0; width: 90%; background: #fdf18d" />
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="8px 0 0 0">
+        <mj-column width="100%" padding="0">
+          <mj-text align="left" padding="0" font-size="10px" line-height="12px">
+            <b>Le supermarché vraiment super.</b>
+            Des courses et des plats au meilleur prix, livrés en 15min 7/7 de 8h à 23h.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="24px 0 32px">
+        <mj-column padding="0">
+          <mj-image
+            padding="0"
+            width="400px"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/illustration-bike_lg7mim.jpg"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0 0 32px 0">
+        <mj-column padding="0">
+          <mj-image
+            alt="Et une commande toute chaude ! Une !"
+            padding="0"
+            width="350px"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668662/et-une-commande-toute-chaude-une_ao47lt.png"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column width="100%" padding="0">
+          <mj-text padding="16px 0 0" font-size="14px" line-height="20px" align="center">
+            <b>Hello {{first_name}},</b>
+          </mj-text>
+          <mj-text padding="16px 0 0" font-size="14px" line-height="20px" align="center">
+            <b>C’est tout bon !</b>
+          </mj-text>
+          <mj-text padding="0" font-size="14px" line-height="20px" align="center">
+            Notre Service Client a bien repassé votre commande.
+          </mj-text>
+          <mj-text padding="0" font-size="14px" line-height="20px" align="center">
+            On la prépare avec soin et on arrive.
+          </mj-text>
+          <mj-text padding="16px 0 0" font-size="14px" line-height="20px" align="center">
+            Vous serez livrés entre <b>{{delivery_slot}}</b> au <b>{{shipping_address}}</b>.
+          </mj-text>
+          <mj-text padding="16px 0 0" font-size="14px" line-height="20px" align="center">
+            Suivez les notifs sur votre téléphone ! Et à très vite !
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="32px 0 0">
+        <mj-column padding="0">
+          <mj-raw>
+            <p style="text-align: center">
+              <span
+                style="
+                  font-family: Agrandir, Helvetica, sans-serif;
+                  display: inline-block;
+                  width: auto;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 20px;
+                  text-align: center;
+                  padding: 8px;
+                  background: #fdf18d;
+                "
+              >
+                Votre commande
+              </span>
+            </p>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="12px 0 16px">
+        <mj-column padding="0">
+          <mj-text
+            font-style="italic"
+            font-size="10px"
+            line-height="12px"
+            color="#757575"
+            padding="24px 0 0 0"
+            align="center"
+          >
+            (miam)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="table-strong" padding="0">
+        <mj-column width="100%" padding="0 0 12px 0">
+          <mj-table align="left" padding="0 16px">
+            <tr style="border-bottom: 12px solid #ffffff">
+              <td width="56px" style="width: 56px; height: 56px">
+                <img height="56px" width="56px" src="" alt="" style="object-fit: contain; background: #f0f3f7" />
+              </td>
+              <td style="padding: 0 12px 0 16px; text-align: left">
+                Champaign soup is just not the same without butterscotch and hot chopped broccolis.
+              </td>
+              <td style="white-space: nowrap; text-align: right">× 2</td>
+              <td style="white-space: nowrap; font-weight: bold; padding-left: 12px; text-align: right">10.00 €</td>
+            </tr>
+            <tr style="border-bottom: 12px solid #ffffff">
+              <td width="56px" style="width: 56px; height: 56px">
+                <img height="56px" width="56px" src="" alt="" style="object-fit: contain; background: #f0f3f7" />
+              </td>
+              <td style="padding: 0 12px 0 16px; text-align: left">
+                When grilling sticky leeks, be sure they are room temperature.
+              </td>
+              <td style="white-space: nowrap; text-align: right">× 1</td>
+              <td style="white-space: nowrap; font-weight: bold; padding-left: 12px; text-align: right">0.00 €</td>
+            </tr>
+            <tr style="border-bottom: 12px solid #ffffff">
+              <td width="56px" style="width: 56px; height: 56px">
+                <img height="56px" width="56px" src="" alt="" style="object-fit: contain; background: #f0f3f7" />
+              </td>
+              <td style="padding: 0 12px 0 16px; text-align: left">
+                After draining the truffels, decorate meatloaf, strawberries and beer with it in a wok.
+              </td>
+              <td style="white-space: nowrap; text-align: right">× 3</td>
+              <td style="white-space: nowrap; font-weight: bold; padding-left: 12px; text-align: right">100.00 €</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column width="100%" border-top="1px solid #000000" padding="12px 0 4px 0">
+          <mj-text
+            padding-right="16px"
+            align="right"
+            padding-bottom="12px"
+            font-size="12px"
+            font-weight="700"
+            line-height="14px"
+          >
+            Livraison : ((price_shipping)) €
+          </mj-text>
+          <mj-text
+            padding-right="16px"
+            align="right"
+            padding-bottom="12px"
+            font-size="12px"
+            font-weight="700"
+            line-height="14px"
+          >
+            Frais de service : ((service_fees)) €
+          </mj-text>
+          <mj-text
+            padding-right="16px"
+            align="right"
+            padding-bottom="12px"
+            font-size="12px"
+            font-weight="700"
+            line-height="14px"
+          >
+            Réduction : ((price_discount)) €
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%" padding="8px 16px" background-color="#000000">
+          <mj-text padding="0" align="right" color="#ffffff" font-size="12px" font-weight="700" line-height="14px">
+            Total : ((price_total)) €
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="56px 0 0">
+        <mj-column width="48%" css-class="table-light table-light-left" padding="16px 10px">
+          <mj-image
+            align="center"
+            alt=""
+            height="20px"
+            width="20px"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/heart_qzurdb.png"
+            padding="0"
+          />
+          <mj-text
+            font-weight="900"
+            font-style="italic"
+            align="center"
+            text-transform="uppercase"
+            font-size="10px"
+            line-height="12px"
+            padding="12px 0"
+            font-family="Agrandir, Helvetica, sans-serif"
+          >
+            10€ pour vous = 10€ pour lui
+          </mj-text>
+          <mj-button
+            color="#000000"
+            background-color="#fdf18d"
+            border-radius="9999px"
+            font-size="12px"
+            line-height="14px"
+            inner-padding="10px 16px"
+            padding="0"
+            href="https://frichti.co"
+          >
+            Parrainez vos amis
+          </mj-button>
+        </mj-column>
+        <mj-column width="16px" padding="16px 0 0 0"> </mj-column>
+        <mj-column width="48%" css-class="table-light table-light-right" padding="16px 10px">
+          <mj-image
+            align="center"
+            alt=""
+            height="20px"
+            width="116px"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/5-stars_qhoadg.png"
+            padding="0"
+          />
+          <mj-text
+            font-weight="900"
+            font-style="italic"
+            align="center"
+            text-transform="uppercase"
+            font-size="10px"
+            line-height="12px"
+            padding="12px 0"
+            font-family="Agrandir, Helvetica, sans-serif"
+          >
+            Qu’avez-vous pensé de votre Fricthi ?
+          </mj-text>
+          <mj-button
+            color="#000000"
+            background-color="#fdf18d"
+            border-radius="9999px"
+            font-size="12px"
+            line-height="14px"
+            inner-padding="10px 16px"
+            padding="0"
+            href="https://frichti.co"
+          >
+            Notez votre commande
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="56px 0 24px 0">
+        <mj-group width="50%">
+          <mj-column padding="0" vertical-align="top" width="50%">
+            <mj-image
+              align="center"
+              width="90px"
+              height="78px"
+              alt=""
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-1_ekidim.png"
+            />
+            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
+              Batavia, mozza, nocciolata
+            </mj-text>
+          </mj-column>
+          <mj-column vertical-align="top" width="50%">
+            <mj-image
+              align="center"
+              width="90px"
+              height="78px"
+              alt=""
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-2_b8b9js.png"
+            />
+            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
+              Encore mieux qu’à la TV
+            </mj-text>
+          </mj-column>
+        </mj-group>
+        <mj-group width="50%">
+          <mj-column padding="0" vertical-align="top" width="50%">
+            <mj-image
+              align="center"
+              width="90px"
+              height="78px"
+              alt=""
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-3_qv4gtj.png"
+            />
+            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
+              >Rien à voir avec V. Lagaff
+            </mj-text>
+          </mj-column>
+          <mj-column padding="0" vertical-align="top" width="50%">
+            <mj-image
+              align="center"
+              width="90px"
+              height="78px"
+              alt=""
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-4_botmyw.png"
+            />
+            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
+              >Oh P***** c’est bon
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column background-color="#fdf18d" width="30%" padding="16px 0" border="8px solid #ffffff">
+          <mj-image
+            align="center"
+            alt=""
+            height="16px"
+            width="97px"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/frichti_mdhmoa.png"
+            padding="0 24px 10px 24px"
+          />
+          <mj-image
+            align="center"
+            alt=""
+            height="14px"
+            width="104px"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668662/food-lovers_xchrnb.png"
+            padding="0 24px 12px 24px"
+          />
+          <mj-table padding="0">
+            <tr style="list-style: none; line-height: 1">
+              <td style="text-align: right; padding: 0 4px">
+                <a href="https://frichti.co">
+                  <img
+                    alt=""
+                    height="20px"
+                    width="20px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/instagram_noay5z.png
+"
+                  />
+                </a>
+              </td>
+              <td style="text-align: center; padding: 0 4px; width: 28px">
+                <a href="https://frichti.co">
+                  <img
+                    alt=""
+                    height="20px"
+                    width="20px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/linked-in_zgafc0.png"
+                  />
+                </a>
+              </td>
+              <td style="text-align: left; padding: 0 4px">
+                <a href="https://frichti.co">
+                  <img
+                    alt=""
+                    height="20px"
+                    width="20px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668664/tik-tok_zoa4cj.png"
+                  />
+                </a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column background-color="#fdf18d" width="70%" padding="12px 24px" border="8px solid #ffffff">
+          <mj-text font-size="14px" line-height="20px" align="center" padding="0 0 16px 0">
+            Une question ? Un problème sur votre commande ? Contactez-nous via le chat sur le site et l’application.
+          </mj-text>
+          <mj-table padding="0">
+            <tr style="list-style: none; line-height: 1">
+              <td style="text-align: right; padding-right: 8px">
+                <a href="https://frichti.co">
+                  <img
+                    alt=""
+                    height="24px"
+                    width="70px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/apple-store-badge_vkqi54.png"
+                  />
+                </a>
+              </td>
+              <td style="text-align: left; padding-left: 8px">
+                <a href="https://frichti.co">
+                  <img
+                    alt=""
+                    height="24px"
+                    width="82px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/google-play-badge_u3kcqn.png"
+                  />
+                </a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="24px 8px 0 8px">
+        <mj-column padding="0">
+          <mj-text color="#757575" align="center" font-size="12px" line-height="14px" padding="0">
+            Vous recevez cet email car vous êtes enregistré sur notre site avec cette adresse email. Si vous ne
+            souhaitez plus recevoir d’emails promotionnels de notre part, vous pouvez vous
+            <a href="https://frichti.co" style="text-decoration: underline; color: #757575">désinscrire</a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
