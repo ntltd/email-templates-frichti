@@ -17,7 +17,7 @@
     </mj-style>
   </mj-head>
 
-  <mj-body width="640px">
+  <mj-body width="640px" background-color="#ffffff">
     <mj-wrapper padding="40px 24px">
       <mj-section background-color="#ffffff" padding="0">
         <mj-column padding="0">
