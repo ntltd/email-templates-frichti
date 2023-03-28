@@ -2,12 +2,12 @@
   font-family: 'Circular';
   font-style: normal;
   font-weight: bold;
-  src: url(http://localhost:3000/fonts/CircularStd-Bold.otf) format('opentype');
+  src: url('https://res.cloudinary.com/frichti/raw/upload/v1679668734/CircularStd-Bold_bfwbmf.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Circular';
   font-style: normal;
   font-weight: normal;
-  src: url(http://localhost:3000/fonts/CircularStd-Book.otf) format('opentype');
+  src: url('https://res.cloudinary.com/frichti/raw/upload/v1679668734/CircularStd-Book_fyu9t2.otf') format('opentype');
 }

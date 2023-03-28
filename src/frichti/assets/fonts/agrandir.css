@@ -2,12 +2,12 @@
   font-family: 'Agrandir';
   font-style: normal;
   font-weight: bold;
-  src: url(http://localhost:3000/fonts/Agrandir-WideBlack.otf) format('opentype');
+  src: url('https://res.cloudinary.com/frichti/raw/upload/v1679668734/Agrandir-WideBlack_yruhuk.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Agrandir';
   font-style: normal;
   font-weight: normal;
-  src: url(http://localhost:3000/fonts/Agrandir-WideLight.otf) format('opentype');
+  src: url('https://res.cloudinary.com/frichti/raw/upload/v1679668734/Agrandir-WideLight_jxaznf.otf') format('opentype');
 }

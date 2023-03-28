@@ -29,7 +29,7 @@
                   alt=""
                   height="12px"
                   width="198px"
-                  src="http://localhost:3000/images/frichti-food-lovers-headline.jpg"
+                  src="https://res.cloudinary.com/frichti/image/upload/v1679668662/frichti-food-lovers-headline_t4iwtn.jpg"
                 />
               </td>
               <td style="padding: 0 0; width: 90%; background: #fdf18d" />
@@ -221,7 +221,7 @@
             alt=""
             height="20px"
             width="20px"
-            src="http://localhost:3000/images/heart.png"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/heart_qzurdb.png"
             padding="0"
           />
           <mj-text
@@ -256,7 +256,7 @@
             alt=""
             height="20px"
             width="116px"
-            src="http://localhost:3000/images/5-stars.png"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/5-stars_qhoadg.png"
             padding="0"
           />
           <mj-text
@@ -305,7 +305,7 @@
               width="90px"
               height="78px"
               alt=""
-              src="http://localhost:3000/images/sticker-1.png"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-1_ekidim.png"
             />
             <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
               Batavia, mozza, nocciolata
@@ -317,7 +317,7 @@
               width="90px"
               height="78px"
               alt=""
-              src="http://localhost:3000/images/sticker-2.png"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-2_b8b9js.png"
             />
             <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
               Encore mieux qu’à la TV
@@ -331,7 +331,7 @@
               width="90px"
               height="78px"
               alt=""
-              src="http://localhost:3000/images/sticker-3.png"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-3_qv4gtj.png"
             />
             <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
               >Rien à voir avec V. Lagaff
@@ -343,7 +343,7 @@
               width="90px"
               height="78px"
               alt=""
-              src="http://localhost:3000/images/sticker-4.png"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-4_botmyw.png"
             />
             <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
               >Oh P***** c’est bon
@@ -359,7 +359,7 @@
             alt=""
             height="16px"
             width="97px"
-            src="http://localhost:3000/images/frichti.png"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/frichti_mdhmoa.png"
             padding="0 24px 10px 24px"
           />
           <mj-image
@@ -367,24 +367,40 @@
             alt=""
             height="14px"
             width="104px"
-            src="http://localhost:3000/images/food-lovers.png"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668662/food-lovers_xchrnb.png"
             padding="0 24px 12px 24px"
           />
           <mj-table padding="0">
             <tr style="list-style: none; line-height: 1">
               <td style="text-align: right; padding: 0 4px">
                 <a href="https://frichti.co">
-                  <img alt="" height="20px" width="20px" src="http://localhost:3000/images/instagram.png" />
+                  <img
+                    alt=""
+                    height="20px"
+                    width="20px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/instagram_noay5z.png
+"
+                  />
                 </a>
               </td>
               <td style="text-align: center; padding: 0 4px; width: 28px">
                 <a href="https://frichti.co">
-                  <img alt="" height="20px" width="20px" src="http://localhost:3000/images/linked-in.png" />
+                  <img
+                    alt=""
+                    height="20px"
+                    width="20px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/linked-in_zgafc0.png"
+                  />
                 </a>
               </td>
               <td style="text-align: left; padding: 0 4px">
                 <a href="https://frichti.co">
-                  <img alt="" height="20px" width="20px" src="http://localhost:3000/images/tik-tok.png" />
+                  <img
+                    alt=""
+                    height="20px"
+                    width="20px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668664/tik-tok_zoa4cj.png"
+                  />
                 </a>
               </td>
             </tr>
@@ -398,12 +414,22 @@
             <tr style="list-style: none; line-height: 1">
               <td style="text-align: right; padding-right: 8px">
                 <a href="https://frichti.co">
-                  <img alt="" height="24px" width="70px" src="http://localhost:3000/images/apple-store-badge.png" />
+                  <img
+                    alt=""
+                    height="24px"
+                    width="70px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/apple-store-badge_vkqi54.png"
+                  />
                 </a>
               </td>
               <td style="text-align: left; padding-left: 8px">
                 <a href="https://frichti.co">
-                  <img alt="" height="24px" width="82px" src="http://localhost:3000/images/google-play-badge.png" />
+                  <img
+                    alt=""
+                    height="24px"
+                    width="82px"
+                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/google-play-badge_u3kcqn.png"
+                  />
                 </a>
               </td>
             </tr>
