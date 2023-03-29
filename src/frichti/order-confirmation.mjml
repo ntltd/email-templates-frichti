@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-preview>Hello World!</mj-preview>
-    <mj-title>Hello MJML</mj-title>
+    <mj-preview>Et une commande toute chaude ! Une !</mj-preview>
+    <mj-title>Et une commande toute chaude ! Une !</mj-title>
     <mj-attributes>
       <mj-text padding="0" />
       <mj-all font-family="Circular, Helvetica, sans-serif" line-height="normal" />
