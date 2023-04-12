@@ -1,0 +1,88 @@
+<mj-section padding="0">
+  <mj-column background-color="#fdf18d" width="30%" padding="16px 0" border="8px solid #ffffff">
+    <mj-image
+      align="center"
+      alt=""
+      height="16px"
+      width="97px"
+      src="https://res.cloudinary.com/frichti/image/upload/v1679668663/frichti_mdhmoa.png"
+      padding="0 24px 6px 24px"
+    />
+    <mj-text
+      font-weight="900"
+      font-style="italic"
+      align="center"
+      text-transform="uppercase"
+      font-size="12px"
+      line-height="14px"
+      padding="4px 0 12px 0"
+      font-family="Agrandir, Helvetica, sans-serif"
+    >
+      FOOD LOVERS
+    </mj-text>
+    <mj-table padding="0">
+      <tr style="list-style: none; line-height: 1">
+        <td style="text-align: right; padding: 0 4px">
+          <a href="https://www.instagram.com/frichti">
+            <img
+              alt=""
+              height="20px"
+              width="20px"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668663/instagram_noay5z.png
+"
+            />
+          </a>
+        </td>
+        <td style="text-align: center; padding: 0 4px; width: 28px">
+          <a href="https://www.linkedin.com/company/frichti">
+            <img
+              alt=""
+              height="20px"
+              width="20px"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668663/linked-in_zgafc0.png"
+            />
+          </a>
+        </td>
+        <td style="text-align: left; padding: 0 4px">
+          <a href="https://www.tiktok.com/@frichti">
+            <img
+              alt=""
+              height="20px"
+              width="20px"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/tik-tok_zoa4cj.png"
+            />
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+  <mj-column background-color="#fdf18d" width="70%" padding="12px 24px" border="8px solid #ffffff">
+    <mj-text font-size="14px" line-height="20px" align="center" padding="0 0 16px 0">
+      Une question ? Un problème sur votre commande ? Contactez-nous via le chat sur le site et l’application.
+    </mj-text>
+    <mj-table padding="0">
+      <tr style="list-style: none; line-height: 1">
+        <td style="text-align: right; padding-right: 8px">
+          <a href="https://apps.apple.com/app/id1113135685">
+            <img
+              alt=""
+              height="24px"
+              width="70px"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668663/apple-store-badge_vkqi54.png"
+            />
+          </a>
+        </td>
+        <td style="text-align: left; padding-left: 8px">
+          <a href="https://play.google.com/store/apps/details?id=com.frichti.android&pli=1">
+            <img
+              alt=""
+              height="24px"
+              width="82px"
+              src="https://res.cloudinary.com/frichti/image/upload/v1679668663/google-play-badge_u3kcqn.png"
+            />
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-preview>Hello World!</mj-preview>
-    <mj-title>Hello MJML</mj-title>
+    <mj-preview>Frichti</mj-preview>
+    <mj-title>Frichti</mj-title>
     <mj-attributes>
       <mj-text padding="0" />
       <mj-all font-family="Circular, Helvetica, sans-serif" line-height="normal" />
@@ -19,24 +19,7 @@
 
   <mj-body width="640px" background-color="#ffffff">
     <mj-wrapper padding="40px 24px">
-      <mj-section background-color="#ffffff" padding="0">
-        <mj-column padding="0">
-          <mj-table padding="0" border="0" line-height="0" cellpadding="0">
-            <tr style="text-align: left; padding: 0; margin: 0; background: none">
-              <td style="padding: 0 16px 0 0; background: #ffffff; margin: 0; height: 12px; width: 198px">
-                <img
-                  style="margin: 0; padding: 0"
-                  alt=""
-                  height="12px"
-                  width="198px"
-                  src="https://res.cloudinary.com/frichti/image/upload/v1679668662/frichti-food-lovers-headline_t4iwtn.jpg"
-                />
-              </td>
-              <td style="padding: 0 0; width: 90%; background: #fdf18d" />
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
+      <mj-include path="./blocks/header.mjml" />
 
       <mj-section padding="8px 0 0 0">
         <mj-column width="100%" padding="0">
@@ -297,155 +280,11 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="24px">
-        <mj-group width="50%">
-          <mj-column padding="0" vertical-align="top" width="50%">
-            <mj-image
-              align="center"
-              width="90px"
-              height="78px"
-              alt=""
-              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-1_ekidim.png"
-            />
-            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
-              Batavia, mozza, nocciolata
-            </mj-text>
-          </mj-column>
-          <mj-column vertical-align="top" width="50%">
-            <mj-image
-              align="center"
-              width="90px"
-              height="78px"
-              alt=""
-              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-2_b8b9js.png"
-            />
-            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
-              Encore mieux qu’à la TV
-            </mj-text>
-          </mj-column>
-        </mj-group>
-        <mj-group width="50%">
-          <mj-column padding="0" vertical-align="top" width="50%">
-            <mj-image
-              align="center"
-              width="90px"
-              height="78px"
-              alt=""
-              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-3_qv4gtj.png"
-            />
-            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
-              >Rien à voir avec V. Lagaff
-            </mj-text>
-          </mj-column>
-          <mj-column padding="0" vertical-align="top" width="50%">
-            <mj-image
-              align="center"
-              width="90px"
-              height="78px"
-              alt=""
-              src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-4_botmyw.png"
-            />
-            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
-              >Oh P***** c’est bon
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
+      <mj-include path="./blocks/stickers.mjml" />
 
-      <mj-section padding="0">
-        <mj-column background-color="#fdf18d" width="30%" padding="16px 0" border="8px solid #ffffff">
-          <mj-image
-            align="center"
-            alt=""
-            height="16px"
-            width="97px"
-            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/frichti_mdhmoa.png"
-            padding="0 24px 10px 24px"
-          />
-          <mj-image
-            align="center"
-            alt=""
-            height="14px"
-            width="104px"
-            src="https://res.cloudinary.com/frichti/image/upload/v1679668662/food-lovers_xchrnb.png"
-            padding="0 24px 12px 24px"
-          />
-          <mj-table padding="0">
-            <tr style="list-style: none; line-height: 1">
-              <td style="text-align: right; padding: 0 4px">
-                <a href="https://frichti.co">
-                  <img
-                    alt=""
-                    height="20px"
-                    width="20px"
-                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/instagram_noay5z.png
-"
-                  />
-                </a>
-              </td>
-              <td style="text-align: center; padding: 0 4px; width: 28px">
-                <a href="https://frichti.co">
-                  <img
-                    alt=""
-                    height="20px"
-                    width="20px"
-                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/linked-in_zgafc0.png"
-                  />
-                </a>
-              </td>
-              <td style="text-align: left; padding: 0 4px">
-                <a href="https://frichti.co">
-                  <img
-                    alt=""
-                    height="20px"
-                    width="20px"
-                    src="https://res.cloudinary.com/frichti/image/upload/v1679668664/tik-tok_zoa4cj.png"
-                  />
-                </a>
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-        <mj-column background-color="#fdf18d" width="70%" padding="12px 24px" border="8px solid #ffffff">
-          <mj-text font-size="14px" line-height="20px" align="center" padding="0 0 16px 0">
-            Une question ? Un problème sur votre commande ? Contactez-nous via le chat sur le site et l’application.
-          </mj-text>
-          <mj-table padding="0">
-            <tr style="list-style: none; line-height: 1">
-              <td style="text-align: right; padding-right: 8px">
-                <a href="https://frichti.co">
-                  <img
-                    alt=""
-                    height="24px"
-                    width="70px"
-                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/apple-store-badge_vkqi54.png"
-                  />
-                </a>
-              </td>
-              <td style="text-align: left; padding-left: 8px">
-                <a href="https://frichti.co">
-                  <img
-                    alt=""
-                    height="24px"
-                    width="82px"
-                    src="https://res.cloudinary.com/frichti/image/upload/v1679668663/google-play-badge_u3kcqn.png"
-                  />
-                </a>
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
+      <mj-include path="./blocks/footer.mjml" />
 
-      <mj-section padding="24px 8px 0 8px">
-        <mj-column padding="0">
-          <mj-text color="#757575" align="center" font-size="12px" line-height="14px" padding="0">
-            Vous recevez cet email car vous êtes enregistré sur notre site avec cette adresse email. Si vous ne
-            souhaitez plus recevoir d’emails promotionnels de notre part, vous pouvez vous
-            <a href="https://frichti.co" style="text-decoration: underline; color: #757575">désinscrire</a>.
-          </mj-text>
-        </mj-column>
-      </mj-section>
+      <mj-include path="./blocks/unsubscribe.mjml" />
     </mj-wrapper>
   </mj-body>
 </mjml>

@@ -1,0 +1,11 @@
+<mj-section padding="24px 8px 0 8px">
+  <mj-column padding="0">
+    <mj-text color="#757575" align="center" font-size="12px" line-height="14px" padding="0">
+      Vous recevez cet email car vous êtes enregistré sur notre site avec cette adresse email. Si vous ne souhaitez plus
+      recevoir d’emails promotionnels de notre part, vous pouvez vous
+      <a href="https://frichti.us11.list-manage.com/unsubscribe/post" style="text-decoration: underline; color: #757575"
+        >désinscrire</a
+      >.
+    </mj-text>
+  </mj-column>
+</mj-section>

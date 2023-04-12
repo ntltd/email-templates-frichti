@@ -132,14 +132,6 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="12px 0 16px">
-        <mj-column padding="0">
-          <mj-text font-size="14px" line-height="16px" padding="0" align="center">
-            <b>Produits remboursés</b>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
       <mj-section css-class="table-strong" padding="0">
         <mj-column width="100%" padding="0 0 12px 0">
           <mj-table align="left" padding="0 16px">

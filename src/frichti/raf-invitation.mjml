@@ -162,7 +162,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="56px 0 24px 0">
+      <mj-section padding="56px 8px 24px">
         <mj-group width="50%">
           <mj-column padding="0" vertical-align="top" width="50%">
             <mj-image
@@ -176,7 +176,7 @@
               Batavia, mozza, nocciolata
             </mj-text>
           </mj-column>
-          <mj-column vertical-align="top" width="50%">
+          <mj-column padding="0" vertical-align="top" width="50%">
             <mj-image
               align="center"
               width="90px"
@@ -198,8 +198,8 @@
               alt=""
               src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-3_qv4gtj.png"
             />
-            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
-              >Rien à voir avec V. Lagaff
+            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
+              Rien à voir avec V. Lagaff
             </mj-text>
           </mj-column>
           <mj-column padding="0" vertical-align="top" width="50%">
@@ -210,8 +210,8 @@
               alt=""
               src="https://res.cloudinary.com/frichti/image/upload/v1679668664/sticker-4_botmyw.png"
             />
-            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold"
-              >Oh P***** c’est bon
+            <mj-text font-size="10px" line-height="16px" align="center" font-weight="bold">
+              Oh P***** c’est bon
             </mj-text>
           </mj-column>
         </mj-group>

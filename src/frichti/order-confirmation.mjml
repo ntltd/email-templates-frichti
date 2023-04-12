@@ -118,14 +118,7 @@
 
       <mj-section padding="12px 0 16px">
         <mj-column padding="0">
-          <mj-text
-            font-style="italic"
-            font-size="10px"
-            line-height="12px"
-            color="#757575"
-            padding="24px 0 0 0"
-            align="center"
-          >
+          <mj-text font-style="italic" font-size="10px" line-height="12px" color="#757575" padding="0" align="center">
             (miam)
           </mj-text>
         </mj-column>

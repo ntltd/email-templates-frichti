@@ -1,0 +1,48 @@
+<mj-section background-color="#ffffff" padding="0">
+  <mj-column padding="0">
+    <mj-table padding="0" border="0" line-height="0" cellpadding="0">
+      <tr style="text-align: left; padding: 0; margin: 0; background: none">
+        <td
+          style="vertical-align: middle; padding: 0 8px 0 0; background: #ffffff; margin: 0; height: 12px; width: 72px"
+        >
+          <img
+            style="margin: 0; padding: 0"
+            alt=""
+            height="12px"
+            width="72px"
+            src="https://res.cloudinary.com/frichti/image/upload/v1679668663/frichti_mdhmoa.png"
+          />
+        </td>
+        <td
+          style="
+            vertical-align: middle;
+            padding: 0 16px 0 0;
+            background: #ffffff;
+            margin: 0;
+            height: 12px;
+            width: 120px;
+          "
+        >
+          <span
+            style="
+              display: inline-block;
+              font-weight: 900;
+              font-style: italic;
+              text-align: center;
+              text-transform: uppercase;
+              font-size: 14px;
+              line-height: 14px;
+              padding: 0;
+              font-family: Agrandir, Helvetica, sans-serif;
+              white-space: nowrap;
+              margin-bottom: -4px;
+            "
+          >
+            FOOD LOVERS
+          </span>
+        </td>
+        <td style="padding: 0 0; width: 70%; background: #fdf18d" />
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
