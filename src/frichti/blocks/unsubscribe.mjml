@@ -3,7 +3,10 @@
     <mj-text color="#757575" align="center" font-size="12px" line-height="14px" padding="0">
       Vous recevez cet email car vous êtes enregistré sur notre site avec cette adresse email. Si vous ne souhaitez plus
       recevoir d’emails promotionnels de notre part, vous pouvez vous
-      <a href="https://frichti.us11.list-manage.com/unsubscribe/post" style="text-decoration: underline; color: #757575"
+      <a
+        href="https://frichti.us11.list-manage.com/unsubscribe/post"
+        style="text-decoration: underline; color: #757575"
+        target="_blank"
         >désinscrire</a
       >.
     </mj-text>

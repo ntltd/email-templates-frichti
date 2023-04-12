@@ -23,7 +23,7 @@
     <mj-table padding="0">
       <tr style="list-style: none; line-height: 1">
         <td style="text-align: right; padding: 0 4px">
-          <a href="https://www.instagram.com/frichti">
+          <a href="https://www.instagram.com/frichti" target="_blank">
             <img
               alt=""
               height="20px"
@@ -34,7 +34,7 @@
           </a>
         </td>
         <td style="text-align: center; padding: 0 4px; width: 28px">
-          <a href="https://www.linkedin.com/company/frichti">
+          <a href="https://www.linkedin.com/company/frichti" target="_blank">
             <img
               alt=""
               height="20px"
@@ -44,7 +44,7 @@
           </a>
         </td>
         <td style="text-align: left; padding: 0 4px">
-          <a href="https://www.tiktok.com/@frichti">
+          <a href="https://www.tiktok.com/@frichti" target="_blank">
             <img
               alt=""
               height="20px"
@@ -63,7 +63,7 @@
     <mj-table padding="0">
       <tr style="list-style: none; line-height: 1">
         <td style="text-align: right; padding-right: 8px">
-          <a href="https://apps.apple.com/app/id1113135685">
+          <a href="https://apps.apple.com/app/id1113135685" target="_blank">
             <img
               alt=""
               height="24px"
@@ -73,7 +73,7 @@
           </a>
         </td>
         <td style="text-align: left; padding-left: 8px">
-          <a href="https://play.google.com/store/apps/details?id=com.frichti.android&pli=1">
+          <a href="https://play.google.com/store/apps/details?id=com.frichti.android&pli=1" target="_blank">
             <img
               alt=""
               height="24px"

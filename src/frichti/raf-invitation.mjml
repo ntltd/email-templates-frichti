@@ -19,6 +19,7 @@
         <mj-column padding="0">
           <mj-image
             href="https://frichti.app.link/xlbgfSqbzyb"
+            target="_blank"
             padding="0"
             width="400px"
             src="https://res.cloudinary.com/frichti/image/upload/v1680770265/ILLUS-MAILSTRANSAC-SACFRICHTI_cxk41j.jpg"
@@ -120,6 +121,7 @@
             font-weight="700"
             inner-padding="10px 16px"
             href="https://frichti.app.link/xlbgfSqbzyb"
+            target="_blank"
           >
             Je découvre Frichti
           </mj-button>

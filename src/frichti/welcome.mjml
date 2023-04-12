@@ -19,6 +19,7 @@
         <mj-column padding="0">
           <mj-image
             href="https://frichti.app.link/VgfIHuhbzyb"
+            target="_blank"
             padding="0"
             width="400px"
             src="https://res.cloudinary.com/frichti/image/upload/v1680770265/ILLUS-MAILSTRANSAC-SACFRICHTI_cxk41j.jpg"
@@ -112,7 +113,7 @@
 
       <mj-section padding="24px 0 0">
         <mj-column padding="0">
-          <mj-text font-size="14px" line-height="16px" align="center" color="#757575" padding="0">
+          <mj-text font-size="14px" line-height="16px" align="center" color="#000000" padding="0">
             En fait, avec Frichti, vous faites vos courses différemment, en retrouvant du goût et du temps.
           </mj-text>
           <mj-text padding="16px 0 0" font-size="14px" line-height="16px" align="center" font-weight="bold">
@@ -133,6 +134,7 @@
             font-weight="700"
             inner-padding="10px 16px"
             href="https://frichti.app.link/VgfIHuhbzyb"
+            target="_blank"
           >
             Je passe ma 1ère commande
           </mj-button>

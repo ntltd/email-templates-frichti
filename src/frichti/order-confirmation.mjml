@@ -65,10 +65,10 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="32px 0 0">
+      <mj-section padding="32px 0 0 0">
         <mj-column padding="0">
           <mj-raw>
-            <p style="text-align: center">
+            <p style="text-align: center; padding: 0">
               <span
                 style="
                   font-family: Agrandir, Helvetica, sans-serif;
@@ -92,7 +92,7 @@
 
       <mj-section padding="12px 0 16px">
         <mj-column padding="0">
-          <mj-text font-style="italic" font-size="10px" line-height="12px" color="#757575" padding="0" align="center">
+          <mj-text padding="0" font-style="italic" font-size="10px" line-height="12px" color="#757575" align="center">
             (miam)
           </mj-text>
         </mj-column>
@@ -203,6 +203,7 @@
             inner-padding="10px 16px"
             padding="0"
             href="https://frichti.co/pages/frichti-offert"
+            target="_blank"
           >
             Parrainez vos amis
           </mj-button>
@@ -238,6 +239,7 @@
             inner-padding="10px 16px"
             padding="0"
             href="https://frichti.co/feedback-order/7DJqXb"
+            target="_blank"
           >
             Notez votre commande
           </mj-button>

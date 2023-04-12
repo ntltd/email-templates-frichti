@@ -185,7 +185,7 @@
           <mj-text font-size="14px" line-height="16px" align="center" font-weight="bold">
             Une question ? Un petit mot doux ?
           </mj-text>
-          <mj-text font-size="14px" line-height="16px" align="center" color="#757575" padding="8px 0 0 0">
+          <mj-text font-size="14px" line-height="16px" align="center" color="#000000" padding="8px 0 0 0">
             N’hésitez pas à répondre à ce mail. Et si c’est urgent, on vous répond en direct.
           </mj-text>
         </mj-column>
