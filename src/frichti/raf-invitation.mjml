@@ -102,7 +102,7 @@
                   box-shadow: 2px 2px 0 #000000;
                 "
               >
-                TEAM-XXX
+                {{DISCOUNT_CODE}}
               </span>
             </p>
           </mj-raw>

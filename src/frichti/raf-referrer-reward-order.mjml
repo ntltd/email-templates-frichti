@@ -100,14 +100,14 @@
                   box-shadow: 2px 2px 0 #000000;
                 "
               >
-                {{DISCOUNTCODE}}
+                {{DISCOUNT_CODE}}
               </span>
             </p>
           </mj-raw>
         </mj-column>
       </mj-section>
 
-      <mj-section padding="24px 0 0">
+      <mj-section padding="24px 0 32px">
         <mj-column padding="0">
           <mj-button
             border-radius="9999px"
@@ -123,17 +123,6 @@
           >
             J’utilise mes 10€
           </mj-button>
-          <mj-text
-            font-style="italic"
-            font-size="10px"
-            line-height="12px"
-            color="#757575"
-            padding="24px 0 0 0"
-            align="center"
-          >
-            Et pour continuer à régaler vos proches (et à vous régaler vous aussi) voici un rappel de votre code parrain
-            à partager, sans modération.
-          </mj-text>
         </mj-column>
       </mj-section>
 
