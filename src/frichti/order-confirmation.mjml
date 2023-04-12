@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-preview>Et une commande toute chaude ! Une !</mj-preview>
-    <mj-title>Et une commande toute chaude ! Une !</mj-title>
+    <mj-preview>Frichti - Et une commande toute chaude ! Une !</mj-preview>
+    <mj-title>Frichti - Et une commande toute chaude ! Une !</mj-title>
     <mj-attributes>
       <mj-text padding="0" />
       <mj-all font-family="Circular, Helvetica, sans-serif" line-height="normal" />
@@ -20,15 +20,6 @@
   <mj-body width="640px" background-color="#ffffff">
     <mj-wrapper padding="40px 24px">
       <mj-include path="./blocks/header.mjml" />
-
-      <mj-section padding="8px 0 0 0">
-        <mj-column width="100%" padding="0">
-          <mj-text align="left" padding="0" font-size="10px" line-height="12px">
-            <b>Le supermarché vraiment super.</b>
-            Des courses et des plats au meilleur prix, livrés en 15min 7/7 de 8h à 23h.
-          </mj-text>
-        </mj-column>
-      </mj-section>
 
       <mj-section padding="24px 0 32px">
         <mj-column padding="0">
@@ -211,7 +202,7 @@
             line-height="14px"
             inner-padding="10px 16px"
             padding="0"
-            href="https://frichti.co"
+            href="https://frichti.co/pages/frichti-offert"
           >
             Parrainez vos amis
           </mj-button>
@@ -246,7 +237,7 @@
             line-height="14px"
             inner-padding="10px 16px"
             padding="0"
-            href="https://frichti.co"
+            href="https://frichti.co/feedback-order/7DJqXb"
           >
             Notez votre commande
           </mj-button>
